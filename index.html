@@ -9,20 +9,82 @@
 </head>
 
 <body>
+
+    <section class="menubar-holder" onclick="changeclass()">
+        <div class="menubars"></div>
+    </section>
+
+    <section class="working-with-before-and-after-pseudo-element">
+            <h1>Working with pseudo elements</h1>
+
+    </section>
+
+    <section class="working-with-css-combinators">
+
+        <div>This is my first div</div>
+        <p>This is my first paragraph</p>
+        <span>This is my first span</span>
+        <p>This is my second paragraph</p>
+        <div>This is my section 
+            <p>This is a paragraph inside of a div</p>
+            <p>This is a paragraph inside of a div</p>
+            <p>This is a paragraph inside of a div</p>
+        </div>
+        <p>This is a paragraph inside of a div</p>
+        <p>This is a paragraph inside of a div</p>
+        <p>This is a paragraph inside of a div</p>
+
+    </section>
+
+    <section class="working-with-flex-row">
+            <div class="flexchild"></div>
+            <div class="flexchild"></div>
+            <div class="flexchild"></div>
+
+    </section>
+
+    <section class="working-with-flex-column">
+            <div class="flexchild"></div>
+            <div class="flexchild"></div>
+            <div class="flexchild"></div>
+
+    </section>
+
+
     <section class="color-changer-project">
         <div class="color-app-holder">
 
             <div class="left-holder">
-                <div class="circle red" onclick=" alert('Welcome, box 1 is clicked')"></div>
-                <div class="circle tomato" id="tomatodiv"></div>
-                <div class="circle blue"></div>
+                  <!-- <div class="circle red" onclick= changeToOrange()></div>
+                <div class="circle tomato" onclick= changeToTomato()></div>
+                <div class="circle blue" onclick= changeToSkyblue()></div> -->
+
+                  <div class="circle red" onclick= 'ChangeColor("#ffa800")'></div>
+                <div class="circle tomato" onclick= 'ChangeColor("tomato")'></div>
+                <div class="circle blue" onclick= 'ChangeColor("skyblue")'></div>
 
             </div>
 
-            <div class="right-holder"></div>
+            <div class="right-holder" id="right-holder"></div>
 
         </div>
 
+
+    </section>
+
+    <section class="working-with-box-model">
+        <div class="parent1">
+
+            <div class="box-model-child"></div>
+            <div class="box-model-child"></div>
+            
+        </div>
+
+        <div class="parent2">
+            <div class="box-model-child parent2-child"></div>
+            <div class="box-model-child"></div>
+
+        </div>
 
     </section>
     
